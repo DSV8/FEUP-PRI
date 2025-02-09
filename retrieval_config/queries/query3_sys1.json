@@ -1,0 +1,9 @@
+{
+    "query": "\"durability test\" laptops review",
+    "fields": "id, score",
+    "params": {
+        "defType": "edismax",
+        "qf": "transcript transcript_keywords transcript_entity_values title description",
+        "rows": 18
+    }
+}

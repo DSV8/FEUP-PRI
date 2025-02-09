@@ -1,0 +1,39 @@
+{
+    "id": "A1lm0aAsnYQ",
+    "title": "Bsnl broadband connection -Setup configure and speed test",
+    "channel": "TechWiser",
+    "channel_id": "UCdp6GUwjKscp5ST4M4WgIpw",
+    "subscriber_count": 2200000,
+    "upload_date": "2013-06-19T17:21:29Z",
+    "video_url": "https://www.youtube.com/watch?v=A1lm0aAsnYQ",
+    "category": "Science & Technology",
+    "tags": [
+        "YouTube Editor",
+        "speed test",
+        "Internet Access",
+        "Bharat Sanchar Nigam (Organization)",
+        "Bsnl broadband",
+        "review",
+        "Setup configure",
+        "Reviews",
+        "Quality",
+        "Speedtest.net (Website)",
+        "Bsnl broadband connection"
+    ],
+    "views": 242060,
+    "likes": 827,
+    "comments_count": 139,
+    "description": "Bsnl broadband connection -   Use the Adsl splitter to split the single main line of telephone into two , the first output from the splitter goes into telephone jack and the other second output goes into the modem.  Configure your wireless modem  1. Connent the computer with the modem using a lan cable.  In this video i have assume that ipv4 is already configure if it's not   then make changes to ipv4 setting  IP address  : 192.168.1.50 Subnet mask: 255.255.255.0 Default Gateway: 192.168.1.1  2. Open 192.168.1.1 in any browser  (default username and password are 'admin' and 'admin' )     3. Look for the setup page and enter your username and password given to you by your ISP  4. This is it, if everything work well your connection will be established.     Bsnl speed test   Here i am having a 2 mb/s speed for 900 Rs and it work good with 150-200 kbps downloading and 50 kbps uploading speed .  Want to know more about us:  Website :   Twitter :   Google plus :",
+    "description_links": [
+        "http://goo.gl/FUfPk",
+        "https://plus.google.com/u/0/111437874.."
+    ],
+    "transcript": "No manual transcript available",
+    "transcript_keywords": [
+        "manual transcript",
+        "manual",
+        "transcript"
+    ],
+    "transcript_entity_values": [],
+    "transcript_entity_types": []
+}

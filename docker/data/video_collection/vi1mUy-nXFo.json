@@ -1,0 +1,47 @@
+{
+    "id": "vi1mUy-nXFo",
+    "title": "5 Cool Inspect Element Tips",
+    "channel": "TechWiser",
+    "channel_id": "UCdp6GUwjKscp5ST4M4WgIpw",
+    "subscriber_count": 2200000,
+    "upload_date": "2016-08-20T19:57:29Z",
+    "video_url": "https://www.youtube.com/watch?v=vi1mUy-nXFo",
+    "category": "Science & Technology",
+    "tags": [
+        "tips tricks",
+        "how to",
+        "tutorial guide",
+        "Mrinal Saha",
+        "RTT",
+        "receivetipstricks",
+        "How to Temporarily Edit Any Webpage",
+        "Easily Reveal Hidden Passwords In Any Browser",
+        "inspect element chrome",
+        "how to use inspect element",
+        "inspect element password hack",
+        "inspect element download",
+        "inspect element hacking tricks"
+    ],
+    "views": 808405,
+    "likes": 14401,
+    "comments_count": 757,
+    "description": "Inspect element is an easy tool, to interact with the source code of any website. And in this video, we'll see 5 cool Inspect Element Hacks.  [Video Content]  Download anything with Inspect element Reveal Hidden Passwords In Web Browsers View 'locked' content on websites How to Temporarily Edit Any Webpage Update Websites with Inspect Element Console   [ Code for console]  To make any web page editable -- document.body.contentEditable = true  To make bulk find and replace on any website  document.getElementById('divID').innerHTML =   document.getElementById('divID').innerHTML.replace(/before/g, \"after\");  [Resource]  I use Audio from YouTube audio library.  Cold Funk - Funkorama by Kevin MacLeod is licensed under a Creative Commons Attribution licence ( Source:  Artist:   [Contact Me]  You can reach me here  Website:  Facebook:  Instagram:  Twitter:   Google plus:",
+    "description_links": [
+        "https://creativecommons.org/licenses/...)",
+        "http://incompetech.com/music/royalty-...",
+        "http://incompetech.com/",
+        "http://receivetipstricks.com/",
+        "https://www.facebook.com/ReceiveTips/",
+        "https://www.instagram.com/dxmrinal/",
+        "https://twitter.com/ReceiveTips",
+        "https://plus.google.com/u/0/111437874..."
+    ],
+    "transcript": "No manual transcript available",
+    "transcript_keywords": [
+        "manual transcript",
+        "manual",
+        "transcript"
+    ],
+    "transcript_entity_values": [],
+    "transcript_entity_types": []
+}

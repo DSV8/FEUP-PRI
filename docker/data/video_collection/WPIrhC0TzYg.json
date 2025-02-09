@@ -1,0 +1,49 @@
+{
+    "id": "WPIrhC0TzYg",
+    "title": "Why Phones Have So Many Cameras #Shorts",
+    "channel": "Techquickie",
+    "channel_id": "UC0vBXGSyV14uvJ4hECDOl0Q",
+    "subscriber_count": 4300000,
+    "upload_date": "2022-02-05T17:00:18Z",
+    "video_url": "https://www.youtube.com/watch?v=WPIrhC0TzYg",
+    "category": "Science & Technology",
+    "tags": [],
+    "views": 464237,
+    "likes": 33033,
+    "comments_count": 289,
+    "description": "What do all those lenses on modern smartphones do? #Shorts",
+    "description_links": [],
+    "transcript": "- Ever wonder why phones these days have so many camera lenses? Here's how the different lenses each do their part to give us awesome image quality. Besides the main sensor, many phones feature a monochrome sensor. Even when you're not shooting in black and white, the monochrome sensor detects more light than the full color sensor, giving the phone more information to work with and resulting enough final image after data from both sensors is combined. Other lenses are often telephoto for zooming in on distant objects without quality loss or wide angle for snapping more of your surroundings and wide angle lenses have wider apertures. Meaning, some phones use them to let in more light to improve nighttime photography. Multiple cameras also allow your phone to determine depth, so you can get those cool, blurry backgrounds or bokeh effects. Hmm. Well, I guess I don't have to be scared of the Galaxy S21 Ultra's five cameras anymore. Still too many cameras.",
+    "transcript_keywords": [
+        "lenses",
+        "sensor",
+        "phones",
+        "cameras",
+        "monochrome sensor",
+        "days",
+        "monochrome",
+        "image",
+        "quality",
+        "phone",
+        "light",
+        "wide",
+        "angle",
+        "wide angle",
+        "part to give",
+        "give us awesome",
+        "awesome image quality",
+        "awesome image",
+        "angle lenses",
+        "phones these days"
+    ],
+    "transcript_entity_values": [
+        "the Galaxy S21 Ultra's",
+        "these days",
+        "five"
+    ],
+    "transcript_entity_types": [
+        "ORG",
+        "DATE",
+        "CARDINAL"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "id": "2W7a5lb--PM",
+    "title": "Expensive Cables Are A Scam! #Shorts",
+    "channel": "Techquickie",
+    "channel_id": "UC0vBXGSyV14uvJ4hECDOl0Q",
+    "subscriber_count": 4300000,
+    "upload_date": "2022-02-19T17:00:02Z",
+    "video_url": "https://www.youtube.com/watch?v=2W7a5lb--PM",
+    "category": "Science & Technology",
+    "tags": [],
+    "views": 1377896,
+    "likes": 98798,
+    "comments_count": 897,
+    "description": "Here's why buying expensive cables makes no sense. #Shorts",
+    "description_links": [],
+    "transcript": "- Should you be buying expensive cables? Almost certainly no. Most cables, like USB, HDMI, and ethernet, carry digital data, a stream of ones and zero, so there's no real way to make that stream higher quality. And assuming that you're not using a cable that's so long you start getting signal loss or jitter, the connection either works or it doesn't. Spending more on a tougher or a faster cable can be worth it, like if you're bending them or unplugging them frequently, or if you know that you'll need the higher speeds that it's rated for. But uber-expensive cables that promise you magically improved picture and sound quality are just high-tech snake oil. There simply isn't any way to make a digital signal where every bit is either zero or one more accurate. So take that money and spend it on a nicer TV or speakers, instead.",
+    "transcript_keywords": [
+        "buying expensive cables",
+        "buying expensive",
+        "expensive cables",
+        "cables",
+        "buying",
+        "expensive",
+        "HDMI",
+        "cable",
+        "stream",
+        "make",
+        "USB",
+        "higher",
+        "carry digital data",
+        "quality",
+        "digital",
+        "signal",
+        "stream higher quality",
+        "stream higher",
+        "carry digital",
+        "digital data"
+    ],
+    "transcript_entity_values": [
+        "one",
+        "USB",
+        "zero",
+        "HDMI"
+    ],
+    "transcript_entity_types": [
+        "CARDINAL",
+        "ORG",
+        "CARDINAL",
+        "ORG"
+    ]
+}

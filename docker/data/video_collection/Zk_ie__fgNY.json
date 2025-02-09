@@ -1,0 +1,72 @@
+{
+    "id": "Zk_ie__fgNY",
+    "title": "Could WiFi Signal be Bad for Health ?",
+    "channel": "TechWiser",
+    "channel_id": "UCdp6GUwjKscp5ST4M4WgIpw",
+    "subscriber_count": 2200000,
+    "upload_date": "2015-02-22T09:09:54Z",
+    "video_url": "https://www.youtube.com/watch?v=Zk_ie__fgNY",
+    "category": "Science & Technology",
+    "tags": [
+        "tips",
+        "tricks",
+        "wifi health dangers",
+        "wifi health risks children",
+        "wifi effects on health",
+        "effects of wireless internet on health"
+    ],
+    "views": 3982,
+    "likes": 136,
+    "comments_count": 16,
+    "description": "This video explains why there is no health risks in using WiFi (not even for babies)  Studies have proved that WiFi is completely safe for your health and at home. So go ahead and use it without worrying.   Reference 1.  2. 3.  (screenshot use in the video)",
+    "description_links": [
+        "http://www.theguardian.com/technology/askjack/2012/sep/27/wi-fi-health-risks",
+        "http://en.wikipedia.org/wiki/Wireless_electronic_devices_and_health",
+        "http://news.bbc.co.uk/2/hi/technology/6676129.stm"
+    ],
+    "transcript": "Everyone loves WiFi. And why not, it make our life so much easier. And even though we use Wifi constantly, The only time we ever think about it, is when it stop working. But what if I tell you, that the signal coming out of you Wifi is actually radiations. Wouldn't you be worried then? So this raise a very interesting question, Is WiFi bad for your health? Well the short answer is NO. And here are 3 scientific reason to support it. 1. WiFi is non-ionizing radiation So what happen is, When most people visualize radiation, they think of it, as some evil cosmic rays, that can end mankind for earth. But it's not true. Well there are 2 type of radiation. Ionizing and nonionizing. While ionizing radiation (like UV rays) can break molecule, when it pass through it, The non-ionizing simply passes through the object and does nothing other than creating small heat energy. So this is why WiFi being a part of non-ionizing radiation doesn't cause any harm to humans. But it still doesn't explain why microwave produce so much heat and not WiFi. Even though both belong to non-ionizing radiation group and have same frequency. And answer to this is brings us to second reason i.e. intensity. 2. Intensity You see, Intensity and Frequency are independent. And although WiFi and microwave operate on same frequency, the intensity of WiFi is much much less than intensity of microwave. Well how much less? Precisely the intensity of a Wi-Fi signal is around is 100,000 times less than a microwave oven and therefore the heat energy by WiFi is also negligible as compared to microwave. This is the same reason, we don't die in sunlight but if you put a human body inside a microwave then.. Well not just talk about that. And this brings us to the third point. i.e 3. Distance As you know Radiation follow inverse square law, ie as it move away from the source, the intensity of radiation decrease drastically, Microwave operate under closed area, which is properly shielded, whereas our WiFi is open. This further reduces the intensity of Wifi as we move away from the sources. Ao If we sum everything, then we can clearly see, that WiFi is completely safe, even for newborns. And you should use it anywhere and anytime you want. Just like I do, And if you are skeptical about the using Wifi then well don't use the mobile phones in the first place. Because according to the recent studies, the radiation that we get from 20 min phone call, is equivalent to radiation from Wifi if we use it for 1 whole year. Well this all for now If you like this video then dont forget to press the thumbs up button. If you see more these of kind of videos then let me know via comments below. And apparently I am making a lot of effort to grow this channel, So if you can support me then do subscribe to this channel and I promise to deliver you best content I can. This is all for now, its mrinal signing and like always thanks for watching.",
+    "transcript_keywords": [
+        "WiFi",
+        "radiation",
+        "intensity",
+        "microwave",
+        "nonionizing",
+        "loves WiFi",
+        "nonionizing radiation",
+        "frequency",
+        "heat",
+        "reason",
+        "loves",
+        "intensity of WiFi",
+        "microwave operate",
+        "Wifi constantly",
+        "answer",
+        "signal",
+        "Ionizing",
+        "brings",
+        "energy",
+        "move"
+    ],
+    "transcript_entity_values": [
+        "1 whole year",
+        "3",
+        "third",
+        "20",
+        "second",
+        "first",
+        "1.",
+        "2",
+        "100,000"
+    ],
+    "transcript_entity_types": [
+        "DATE",
+        "CARDINAL",
+        "ORDINAL",
+        "CARDINAL",
+        "ORDINAL",
+        "ORDINAL",
+        "CARDINAL",
+        "CARDINAL",
+        "CARDINAL"
+    ]
+}

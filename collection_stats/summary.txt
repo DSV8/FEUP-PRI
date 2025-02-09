@@ -1,0 +1,64 @@
+Total number of documents: 8346
+Largest document: https://www.youtube.com/watch?v=uLPBC2qJgvA
+Smallest document: https://www.youtube.com/watch?v=7V_XEgSjrM0
+Earliest upload date: 2012-05-15
+Latest upload date: 2024-10-15
+Number of unique channels: 24
+Videos per channel:
+channel
+The Verge                    750
+iJustine                     750
+JerryRigEverything           750
+Austin Evans                 749
+ShortCircuit                 653
+Linus Tech Tips              589
+MrMobile [Michael Fisher]    440
+Unbox Therapy                425
+David Bombal                 411
+Hardware Canucks             314
+Dave2D                       284
+Marques Brownlee             280
+This Is                      269
+TechLinked                   248
+Computer Clan                229
+Dawid Does Tech Stuff        208
+Techquickie                  202
+Technology Connections       190
+Jonathan Morrison            179
+Greg Salazar                 133
+TechWiser                    119
+This Does Not Compute         78
+Snazzy Labs                   65
+DIY Perks                     31
+
+Descriptive statistics for numeric fields:
+       subscriber_count         views         likes  comments_count
+count      8.346000e+03  8.346000e+03  8.346000e+03    8.346000e+03
+mean       6.252080e+06  1.219511e+06  3.475474e+04    2.638157e+03
+std        6.397027e+06  2.115895e+06  5.359582e+04    1.886869e+04
+min        4.140000e+05  0.000000e+00  0.000000e+00    0.000000e+00
+25%        2.200000e+06  2.455145e+05  7.351250e+03    5.250000e+02
+50%        3.390000e+06  5.693880e+05  1.808450e+04    1.151000e+03
+75%        7.100000e+06  1.447309e+06  4.213125e+04    2.638000e+03
+95%        2.480000e+07  4.328769e+06  1.175918e+05    7.830250e+03
+max        2.480000e+07  7.389395e+07  1.907538e+06    1.647222e+06
+
+Most Common Entity in Each Category:
+DATE: today (4170 occurrences)
+ORG: Apple (2217 occurrences)
+ORDINAL: first (6105 occurrences)
+CARDINAL: one (6380 occurrences)
+TIME: a minute (485 occurrences)
+QUANTITY: a ton (1062 occurrences)
+PERSON: jack (1012 occurrences)
+PRODUCT: Windows (856 occurrences)
+NORP: iPhones (405 occurrences)
+WORK_OF_ART: Windows (188 occurrences)
+PERCENT: 100% (877 occurrences)
+MONEY: 200 (357 occurrences)
+LOC: Europe (183 occurrences)
+GPE: US (693 occurrences)
+FAC: MacBook (351 occurrences)
+EVENT: WWDC (72 occurrences)
+LAW: Ryzen 5 (29 occurrences)
+LANGUAGE: English (199 occurrences)

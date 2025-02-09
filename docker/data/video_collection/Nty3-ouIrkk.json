@@ -1,0 +1,39 @@
+{
+    "id": "Nty3-ouIrkk",
+    "title": "How to make a Chrome Extension [Beginners Tutorial]",
+    "channel": "TechWiser",
+    "channel_id": "UCdp6GUwjKscp5ST4M4WgIpw",
+    "subscriber_count": 2200000,
+    "upload_date": "2015-06-27T18:14:25Z",
+    "video_url": "https://www.youtube.com/watch?v=Nty3-ouIrkk",
+    "category": "Science & Technology",
+    "tags": [
+        "tips",
+        "tricks",
+        "How to make a Chrome Extension",
+        "chrome extension development tutorial",
+        "chrome extension builder",
+        "how to make a chrome extention",
+        "how to make a chrome plugin",
+        "How to make a Chrome Extension [Beginners Tutorial",
+        "how to build chrome extension",
+        "chrome extension guide for beginners",
+        "how to upload apps to chrome store"
+    ],
+    "views": 60954,
+    "likes": 1001,
+    "comments_count": 109,
+    "description": "Here is my first chrome extension -- Open Multiple Websites  It lets you open your frequently visited websites with a single click  This is a step by step guide on how to make chrome extension.   Video is divided into 3 parts  1. Understand physical aspects of chrome extension  2. How to write a program for chrome extension 3. How to published extension on localhost or on web store   Writing google chrome extensions is easy. All you need is basic understanding of Javascript, HTML and CSS. And that's it.    Resouces 1. Learn the basic of HTML and Javascript from the web. 2. Follow the Google extension guide.     Useful links  jslint.com",
+    "description_links": [
+        "https://chrome.google.com/webstore/detail/open-multiple-websites/chebdlgebkhbmkeanhkgfojjaofeihgm?hl=en",
+        "https://developer.chrome.com/extensions/getstarted"
+    ],
+    "transcript": "No manual transcript available",
+    "transcript_keywords": [
+        "manual transcript",
+        "manual",
+        "transcript"
+    ],
+    "transcript_entity_values": [],
+    "transcript_entity_types": []
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>TechSpotter</title>
+</head>
+<body style="background-color: #212121; font-family: 'Inter', sans-serif; height: 100%; display: flex; justify-content: center; margin: 0%;">
+    <div class="main-body" id="main-body" style="background-color: #ECECEC; height: 100vh; width: 60%; display: flex; justify-content: center; align-items: center;">
+        <div class="content" id="content" style="width: 100%; display: flex; flex-direction: column; align-items: center;">
+            <div class="title-and-searchbar" style="text-align: center; width: 90%;">
+                <h1 style="color: #171717; font-family: 'Orbitron', sans-serif; font-size: 400%; font-weight: 900; margin-top: 0%; margin-bottom: 2%;"><i>TechSpotter</i></h1>
+                <div style="display: flex; justify-content: center;">
+                    <div class="search-container" style="width: 75%; display: flex; align-items: center; position: relative;">
+                        <input class="search-bar" id="query-input" type="text" placeholder="Search" style="flex: 1; border: none; border-radius: 50px; background-color: #1F1F1F; color: #ECECEC; padding: 2% 3%; font-size: 90%; outline: none;">
+                        <button class="buttons" id="search-button" disabled onclick="fetchDocuments()" style="background-color: #000000; border: none; border-radius: 100%; padding: 3%; display: flex; justify-content: center; align-items: center; cursor: not-allowed; position: absolute; right: 0%; top: 50%; transform: translateY(-50%);">
+                            <i class="fas fa-search" style="color: #FFFFFF; font-size: 150%;"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="search-results-container" id="search-results-container" style="width: 90%; margin-top: 3%; overflow-y: scroll; max-height: 72vh; display: grid; grid-template-columns: repeat(auto-fill); gap: 3%;"></div>
+            <pre id="response-output" style="display: none; color: #ECECEC; "></pre>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('query-input').addEventListener('keydown', function (event) {
+            if (event.key === 'Enter') {
+                document.getElementById('search-button').click();
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('query-input');
+            const searchButton = document.getElementById('search-button');
+
+            // Enable/disable the button based on input content
+            searchInput.addEventListener('input', function () {
+                if (searchInput.value.trim() === '') {
+                    searchButton.disabled = true;
+                    searchButton.style.cursor = 'not-allowed';
+                } else {
+                    searchButton.disabled = false;
+                    searchButton.style.cursor = 'pointer';
+                }
+            });
+        });
+
+
+        function adjustLayout() {
+            const mainBodyDiv = document.getElementById('main-body');
+            mainBodyDiv.style.alignItems = 'flex-start';
+            contentDiv = document.getElementById('content');
+            contentDiv.style.marginTop = '5%';
+        }
+
+        async function fetchDocuments() {
+            const queryInput = document.getElementById('query-input');
+            const output = document.getElementById('response-output');
+            const resultsContainer = document.getElementById('search-results-container');
+
+            if (!output) {
+                console.error("Output element not found!");
+                return;
+            }
+
+            // Get the value of the input field
+            const query = queryInput.value.trim();
+            
+            // Clear previous results
+            resultsContainer.innerHTML = '';
+
+            // Ensure there's a query
+            if (query === '') {
+                console.error("Search query field is empty!")
+                return;
+            }
+
+            // Clear the input field after the search
+            queryInput.value = '';
+
+            adjustLayout();
+
+            try {
+                const response = await fetch('http://127.0.0.1:5000/fetch_documents', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query: query }),
+                });
+
+                if (!response.ok) {
+                    throw new Error(`Error: ${response.statusText}`);
+                }
+
+                const data = await response.json();
+                const videos = data.response.docs;
+
+                // Check if there are no results
+                if (videos.length === 0) {
+                    const text = document.createElement('div');
+                    text.textContent = "No videos found."
+                    text.style = 'color: #ECECEC; text-align: center; font-size: 1.5em; margin: 3% auto; width: 100%';
+                    resultsContainer.appendChild(text);
+                    return;
+                }
+
+                // Generate cards for each video
+                videos.forEach(video => {
+                    const videoCard = document.createElement('div');
+                    videoCard.classList.add('video-card');
+                    videoCard.style = 'background-color: #212121; padding: 10px; border-radius: 8px; color: #ECECEC; display: grid; grid-template-columns: 1fr 2fr; cursor: pointer;';
+
+                    const thumbnailUrl = `https://img.youtube.com/vi/${video.id}/hqdefault.jpg`;
+                    videoCard.innerHTML = `
+                        <div class="thumbnail-container" style="margin-right: 2%;">
+                            <img src="${thumbnailUrl}" alt="${video.title}" style="width: 100%; border-radius: 8px;">
+                        </div>
+                        <div class="title-and-channel" style="justify-content: space-between; display:flex; flex-direction:column; padding: 5px">
+                            <h3 style="font-size: 1.2em; margin-top: 10px; color: #ECECEC">${video.title}</h3>
+                            <p style="font-size: 1em; color: #999999;">${video.channel}</p>
+                        </div>
+                        `;
+
+                    // Add onClick event to navigate to the document
+                    videoCard.addEventListener('click', () => {
+                        // Log the clicked ID
+                        fetch('http://127.0.0.1:5000/log_click', {
+                            method: 'POST',
+                            headers: {'Content-Type': 'application/json'},
+                            body: JSON.stringify({ id: video.id })
+                        }).then(response => response.json()).then(data => {
+                            if (data.error) {
+                            console.error('Error logging click:', data.error);
+                            } else {
+                            console.log('ID logged successfully');
+                            }
+                        }).catch(error => console.error('Error logging click:', error));
+                        
+                        window.location.href = `video_details.html?id=${video.id}`;    
+                    });
+
+                    resultsContainer.appendChild(videoCard);
+                });
+
+                // Clear the output message after results are displayed
+                output.textContent = '';
+            } catch (error) {
+                output.textContent = `Error fetching documents: ${error.message}`;
+            }
+        }
+    </script>
+</body>
+</html>

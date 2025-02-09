@@ -1,0 +1,68 @@
+{
+    "id": "utTXASpW0aA",
+    "title": "5 Useful Tasker Profiles for Beginners (Part 1)",
+    "channel": "TechWiser",
+    "channel_id": "UCdp6GUwjKscp5ST4M4WgIpw",
+    "subscriber_count": 2200000,
+    "upload_date": "2014-08-18T05:46:32Z",
+    "video_url": "https://www.youtube.com/watch?v=utTXASpW0aA",
+    "category": "Science & Technology",
+    "tags": [
+        "tasker tutorial youtube",
+        "tasker tutorial lifehacker",
+        "tasker android profiles",
+        "tasker profiles",
+        "tasker tutorial android",
+        "tasker wiki"
+    ],
+    "views": 102644,
+    "likes": 530,
+    "comments_count": 115,
+    "description": "Update: I have made the part 2 of tasker tutorial. Check it out.    Before you go ! Read this.   Hi There, This video seems to have received both positive and negative reviews from the viewers.  Which is kind of strange, as it never happened before on any of my video.  Therefore if you don't like this video, kindly take your time and mention the reason, so that I can make it better the next time. And if you like it, then let me know if you would like to see part 2 or something. Thanks  About tasker   Tasker is an awesome and powerful android application with which you can do anything with your android. In this video we going to see 5 simple yet useful things that we can do with tasker.   Important links  Tasker: Trial Download / Install   Get Spotify outside US and Uk   Media Utilities-   Contents of this Video   Introduction to Tasker for Beginners. 0:35  1. Automatically play music when you plug in your headphones. (2:10) 2. Silent your phone after turning it face down (8:02) 3. Keep the phone unlock when connected to home WiFi (11:26) 4. Activate night mode ( Silent, Wifi OFF, Lanch Alarm app) (14:07) 5. Automatically send text to mom when battery falls down 5%.(17:48)",
+    "description_links": [
+        "https://youtu.be/V1fMVJgQIS0",
+        "http://tasker.dinglisch.net/download.html",
+        "https://play.google.com/store/apps/details?id=com.batescorp.notificationmediacontrols.alpha"
+    ],
+    "transcript": "Tasker is a very powerful android application that lets you trigger action based on context like location, date, time, event and gesture etc Hey there this is mrinal once and welcome to RTT videocast, In this video we are going to find out 5 simple yet useful things that you can do with tasker. This is a beginners guide, so if you don't have experience of using tasker before you are good to go and having said that lets get started. Although tasker is a paid application, available on google play for 3$ you can get the free trial version for 7 days, form it's official website. The link to the official website will be in the description box below. So once you have downloaded and install tasker just go ahead and open the app. And once you open the app you find it little overwhelming because the user interface is quite hard to understand for the beginners but dont worry in this tutorial I will show you how to use tasker and you will able to understand how the system works. So the first thing that you need to do is click on this 3 vertical dots on top right and then uncheck this beginners mode. We are doing this because beginners mode block most useful option. Sot first thing, that you need to do is uncheck this beginners mode. And once you go back, you will see other options appearing like tasks and variable. Now in this case, since it's a beginners guide we are only interested in profile and task. So what the task do in tasker is that. In task if you want to perform some action you do it under the task options and the profile option specify when the task will be executed or trigger. So lets us understand them better with the help of following 5 examples. Start with launching the tasker application, now here you can see that there is a profile option and task option. we will be working with both of these. In our case what we want to do is that, when we plug in head phone in the audio jack, it start playing the music automatically without pressing any button.",
+    "transcript_keywords": [
+        "RTT videocast",
+        "gesture etc Hey",
+        "powerful android application",
+        "context like location",
+        "event and gesture",
+        "Tasker",
+        "powerful android",
+        "based on context",
+        "beginners",
+        "Hey",
+        "RTT",
+        "task",
+        "beginners mode",
+        "android application",
+        "option",
+        "application",
+        "trigger action based",
+        "beginners guide",
+        "official website",
+        "action based"
+    ],
+    "transcript_entity_values": [
+        "Tasker",
+        "3",
+        "jack",
+        "3$",
+        "first",
+        "7 days",
+        "5"
+    ],
+    "transcript_entity_types": [
+        "PERSON",
+        "CARDINAL",
+        "PERSON",
+        "MONEY",
+        "ORDINAL",
+        "DATE",
+        "CARDINAL"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "query": "ethics \"artificial intelligence\" debate discussion concerns news",
+    "fields": "id, score",
+    "params": {
+        "defType": "edismax",
+        "qf": "transcript transcript_keywords transcript_entity_values title description",
+        "rows": 50
+    }
+}

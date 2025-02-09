@@ -1,0 +1,39 @@
+{
+  "add-field-type": [{
+    "name": "text_transcript",
+    "class": "solr.TextField",
+    "positionIncrementGap": "100",
+    "analyzer": {
+      "tokenizer": {
+        "class": "solr.StandardTokenizerFactory"
+      },
+      "filters": [
+        {
+          "class": "solr.LowerCaseFilterFactory"
+        },
+        {
+          "class": "solr.StopFilterFactory",
+          "words": "stopwords_en.txt",
+          "ignoreCase": true
+        },
+        {
+          "class": "solr.SynonymFilterFactory",
+          "synonyms": "synonyms.txt",
+          "expand": true,
+          "ignoreCase": true
+        },
+        {
+          "class": "solr.SnowballPorterFilterFactory",
+          "language": "English"
+        }
+      ]
+    }
+  },
+  {
+    "name": "courseVector",
+    "class": "solr.DenseVectorField",
+    "vectorDimension": 384,
+    "similarityFunction": "cosine",
+    "knnAlgorithm": "hnsw"
+  }]
+}

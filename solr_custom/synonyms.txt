@@ -1,0 +1,139 @@
+computer, pc, desktop
+laptop, notebook, ultrabook
+smartphone, cellphone, mobile phone, mobile
+tablet, ipad, slate
+television, tv, lcd, led tv, smart tv
+headphones, headset, earphones, earbuds
+camera, digital camera, dslr, mirrorless camera
+printer, laser printer, inkjet printer
+router, modem, wireless router, wifi router
+software, application, app, program
+operating system, os, windows, macos, linux
+graphics card, gpu, video card
+processor, cpu, central processing unit
+motherboard, mainboard
+hard drive, hdd, hard disk, hard disk drive
+solid state drive, ssd
+memory, ram, random access memory
+power supply, psu
+keyboard, mechanical keyboard, membrane keyboard
+mouse, trackpad, touchpad
+monitor, display, screen
+gaming pc, gaming computer, gaming rig
+console, gaming console, xbox, playstation, nintendo switch
+graphics card, gpu, video card
+processor, cpu, central processing unit
+overclocking, oc
+cooling system, heatsink, cooler, fan
+case, chassis, computer case
+peripherals, accessories, input devices
+virtual reality, vr, augmented reality, ar
+e-sports, esports, competitive gaming
+first-person shooter, fps
+massively multiplayer online, mmo
+role-playing game, rpg
+real-time strategy, rts
+graphics settings, visual settings, display settings
+smartphone, cellphone, mobile phone, mobile
+tablet, ipad, slate
+phablet, large-screen smartphone
+wearable, smartwatch, fitness tracker
+foldable phone, flexible phone, bendable phone, foldable smartphone
+touchscreen, touch display
+battery life, battery duration, battery performance
+camera phone, smartphone camera
+android, ios, mobile operating system
+app store, play store, application marketplace
+review, overview, evaluation, analysis
+unboxing, hands-on, first look
+comparison, vs, versus
+benchmark, performance test, stress test
+durability test, drop test, scratch test, bend test, torture test
+battery test, battery life test
+speed test, performance comparison
+tutorial, guide, walkthrough, how-to, instructional
+step-by-step, step by step, detailed instructions
+beginner, newbie, novice, starter
+advanced, expert, pro
+tips, tricks, hints, advice
+lesson, course, class
+software, application, app, program
+development, coding, programming
+code, script, software
+framework, platform, library
+bug, glitch, issue, error
+update, patch, upgrade
+database, db, data storage
+cloud computing, cloud services, cloud storage
+artificial intelligence, ai, machine learning, ml
+virtual machine, vm
+internet, web, online, net
+network, lan, local area network
+wifi, wireless network
+ethernet, wired network
+router, modem, wireless router, wifi router
+bandwidth, internet speed
+ip address, internet protocol
+firewall, security software
+vpn, virtual private network
+audio, sound, acoustics
+video, visuals, graphics
+headphones, headset, earphones, earbuds
+speaker, sound system, audio system
+microphone, mic
+camera, camcorder, webcam
+resolution, hd, full hd, 4k, ultra hd
+frame rate, fps, frames per second
+streaming, live streaming, broadcasting
+hard drive, hdd, hard disk, hard disk drive
+solid state drive, ssd
+flash drive, usb drive, thumb drive
+memory card, sd card, micro sd
+external drive, portable drive
+storage, data storage, memory
+cloud storage, online storage
+operating system, os, windows, macos, linux, ubuntu
+android, ios, mobile operating system
+chrome os, chromebook
+unix, bsd
+virtual machine, vm
+desktop environment, gui, graphical user interface
+command line, terminal, shell
+virtual reality, vr
+augmented reality, ar
+mixed reality, mr
+artificial intelligence, ai
+machine learning, ml
+blockchain, distributed ledger
+internet of things, iot
+5g, fifth generation network
+quantum computing, quantum computers
+autonomous vehicles, self-driving cars
+nanotechnology, nano tech
+biotechnology, bio tech
+cybersecurity, information security, infosec
+encryption, cryptography
+malware, virus, trojan, spyware
+antivirus, anti-malware
+firewall, security software
+vpn, virtual private network
+data breach, security breach
+authentication, authorization, access control
+password, passcode, credentials
+privacy, anonymity
+cloud computing, cloud services, cloud storage
+saas, software as a service
+iaas, infrastructure as a service
+paas, platform as a service
+aws, amazon web services
+azure, microsoft azure
+google cloud, gcp, google cloud platform
+virtualization, virtual machines, vm
+docker, containerization, containers
+serverless computing, function as a service
+user interface, ui, ux, user experience
+artificial intelligence, ai, machine learning, ml
+big data, data analytics, data science
+robotics, automation
+3d printing, additive manufacturing
+semiconductor, microchip, integrated circuit, ic

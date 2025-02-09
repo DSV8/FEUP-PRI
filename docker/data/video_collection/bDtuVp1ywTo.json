@@ -1,0 +1,53 @@
+{
+    "id": "bDtuVp1ywTo",
+    "title": "iOS 17's \"Personal Voice\" Feature!",
+    "channel": "Marques Brownlee",
+    "channel_id": "UCBJycsmduvYEL83R_U4JriQ",
+    "subscriber_count": 19600000,
+    "upload_date": "2023-07-12T18:52:40Z",
+    "video_url": "https://www.youtube.com/watch?v=bDtuVp1ywTo",
+    "category": "Science & Technology",
+    "tags": [],
+    "views": 3108620,
+    "likes": 133789,
+    "comments_count": 1770,
+    "description": "Accessibility - Speech - Personal voice",
+    "description_links": [],
+    "transcript": "Hey, what's up guys, I'm MKBHD here and this is maybe the wildest new feature I've ever seen added to the iPhone. Okay, so inside of the accessibility settings of the new iSO 17 under speech, there's something called personal voice. Didn't even really talked about this at the keynote but it uses recordings of your actual voice to stitch together a synthesized voice to sound like you and say anything. There's actually a whole process you have to go through where it gives you like 15 minutes of text prompts that you say out loud into the mic. Then a processes everything on your phone over night and you wake up the next day with a new personalized voice where you can type to speak. All right, it so this is what it sounds like to speak on my voice. I really think 30 frames per second is the correct frame rate. Anyone who says otherwise is clearly faking it. It sounds pretty good. It clearly is a little bit robotic so it kind of sounds like talking to someone on the phone with like a poor connection, you know. But still in 15 minutes to have a voice that can do anything is pretty crazy.",
+    "transcript_keywords": [
+        "wildest new feature",
+        "MKBHD",
+        "voice",
+        "Hey",
+        "guys",
+        "iPhone",
+        "sounds",
+        "called personal voice",
+        "wildest",
+        "feature",
+        "added",
+        "speak",
+        "accessibility settings",
+        "called personal",
+        "phone",
+        "personal voice",
+        "minutes",
+        "pretty",
+        "actual voice",
+        "synthesized voice"
+    ],
+    "transcript_entity_values": [
+        "second",
+        "the next day",
+        "15 minutes",
+        "iPhone",
+        "30"
+    ],
+    "transcript_entity_types": [
+        "ORDINAL",
+        "DATE",
+        "TIME",
+        "ORG",
+        "CARDINAL"
+    ]
+}

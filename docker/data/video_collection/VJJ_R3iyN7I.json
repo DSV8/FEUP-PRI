@@ -1,0 +1,34 @@
+{
+    "id": "VJJ_R3iyN7I",
+    "title": "5 Less Known CMD Tips & Tricks",
+    "channel": "TechWiser",
+    "channel_id": "UCdp6GUwjKscp5ST4M4WgIpw",
+    "subscriber_count": 2200000,
+    "upload_date": "2015-12-13T15:13:00Z",
+    "video_url": "https://www.youtube.com/watch?v=VJJ_R3iyN7I",
+    "category": "Science & Technology",
+    "tags": [
+        "tips",
+        "tricks",
+        "awesome cmd tricks",
+        "how to open cmd",
+        "how to copy in cmd",
+        "Schedule a Shutdown",
+        "Find out history of commands"
+    ],
+    "views": 75282,
+    "likes": 747,
+    "comments_count": 104,
+    "description": "Here are 5 lesser-known cmd tips tricks.   [0:43] How to open CMD  You can press Win+R to open run box and then type cmd and hit enter. Or use shift + right click.  [3:07] Schedule a Shutdown   shutdown -s -t 3600 (will shutdown the computer in 1 hour)  [4:28]  Find out history of commands  Use UP/Down arrow key, doskey /history or press f7 key   [5:44]  awesome cmd tricks  Type in the command wmic and then type exit.   [6:30] How to copy stuff on CMD  Turn on quick edit from properties, use ipconfig | clip  [link to wallpaper]",
+    "description_links": [
+        "https://drive.google.com/file/d/0B1sqEWrNRx0xaDh0MGJMdkQxM2c/view?usp=sharing"
+    ],
+    "transcript": "No manual transcript available",
+    "transcript_keywords": [
+        "manual transcript",
+        "manual",
+        "transcript"
+    ],
+    "transcript_entity_values": [],
+    "transcript_entity_types": []
+}

@@ -1,0 +1,9 @@
+{
+    "query": "\"build a gaming PC\" \"step-by-step instructions\"",
+    "fields": "id, score",
+    "params": {
+        "defType": "edismax",
+        "qf": "transcript transcript_keywords transcript_entity_values title description",
+        "rows": 38
+    }
+}

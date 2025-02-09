@@ -1,0 +1,35 @@
+{
+    "id": "hWBTXsqUwrk",
+    "title": "Ubuntu 12.04 : Java applet not working with open jdk (Solved)",
+    "channel": "TechWiser",
+    "channel_id": "UCdp6GUwjKscp5ST4M4WgIpw",
+    "subscriber_count": 2200000,
+    "upload_date": "2013-06-21T13:15:47Z",
+    "video_url": "https://www.youtube.com/watch?v=hWBTXsqUwrk",
+    "category": "Science & Technology",
+    "tags": [
+        "tips",
+        "tricks",
+        "Ubuntu (Software)",
+        "Java Applet (Video Game Platform)",
+        "OpenJDK",
+        "enable java applets in browser",
+        "Ubuntu 12.04",
+        "icedtea-7-plugin"
+    ],
+    "views": 4695,
+    "likes": 14,
+    "comments_count": 2,
+    "description": "I have install open jdk on ubuntu 12.04 LTS  64 bit  but when i used websites that runs on java , I get the errror of java not install or been disable in your browser. This is how you can solve this problem first check you browser ( about://plugin in the url box. ) if java has been disable and if it's not there than you need to install  ice tea plugin to install it type this command on terminal  sudo apt-get install icedtea-7-plugin  This will work, if not let me know through comments  Want to know more about us:  Website :   Facebook:   Twitter :    Google plus :",
+    "description_links": [
+        "https://plus.google.com/u/0/111437874667316457765"
+    ],
+    "transcript": "No manual transcript available",
+    "transcript_keywords": [
+        "manual transcript",
+        "manual",
+        "transcript"
+    ],
+    "transcript_entity_values": [],
+    "transcript_entity_types": []
+}

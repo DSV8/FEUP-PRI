@@ -1,0 +1,122 @@
+{
+  "add-field": [
+    {
+      "name": "title",
+      "type": "text_en",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "channel",
+      "type": "string",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "channel_id",
+      "type": "string",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "subscriber_count",
+      "type": "pint",
+      "stored": true,
+      "indexed": true,
+      "docValues": true
+    },
+    {
+      "name": "upload_date",
+      "type": "pdate",
+      "stored": true,
+      "indexed": true,
+      "docValues": true
+    },
+    {
+      "name": "video_url",
+      "type": "string",
+      "stored": true,
+      "indexed": false
+    },
+    {
+      "name": "category",
+      "type": "string",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "tags",
+      "type": "text_en",
+      "stored": true,
+      "indexed": true,
+      "multiValued": true
+    },
+    {
+      "name": "views",
+      "type": "plong",
+      "stored": true,
+      "indexed": true,
+      "docValues": true
+    },
+    {
+      "name": "likes",
+      "type": "pint",
+      "stored": true,
+      "indexed": true,
+      "docValues": true
+    },
+    {
+      "name": "comments_count",
+      "type": "pint",
+      "stored": true,
+      "indexed": true,
+      "docValues": true
+    },
+    {
+      "name": "description",
+      "type": "text_en",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "description_links",
+      "type": "string",
+      "stored": true,
+      "indexed": false,
+      "multiValued": true
+    },
+    {
+      "name": "transcript",
+      "type": "text_transcript",
+      "stored": true,
+      "indexed": true
+    },
+    {
+      "name": "transcript_entity_values",
+      "type": "string",
+      "stored": true,
+      "indexed": true,
+      "multiValued": true
+    },
+    {
+      "name": "transcript_entity_types",
+      "type": "string",
+      "stored": true,
+      "indexed": true,
+      "multiValued": true
+    },
+    {
+      "name": "transcript_keywords",
+      "type": "string",
+      "stored": true,
+      "indexed": true,
+      "multiValued": true
+    },
+    {
+      "name": "vector",
+      "type": "courseVector",
+      "indexed": true,
+      "stored": true
+    }
+  ]
+}

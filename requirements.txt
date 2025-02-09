@@ -1,0 +1,13 @@
+spacy
+yake
+numpy
+matplotlib
+google-api-python-client
+contractions
+youtube-transcript-api
+pandas
+argparse
+requests
+sentence_transformers
+flask
+flask-cors

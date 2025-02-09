@@ -1,0 +1,23 @@
+services:
+  solr:
+    container_name: pri_solr
+
+    image: solr:9.7
+
+    ports:
+     - "8983:8983"
+
+    volumes:
+      - solr_data:/data
+
+    command:
+      - solr-precreate
+      - tech_videos
+
+volumes:
+  solr_data:
+    driver: local
+    driver_opts:
+      type: none
+      device: data
+      o: bind
